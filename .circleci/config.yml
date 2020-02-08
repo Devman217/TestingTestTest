@@ -9,9 +9,9 @@ jobs:
       # specify the version you desire here
       - image: circleci/node:12.8.1
 
-    
+
 
     steps:
-
+      - checkout
       - run: npm install
       - run: npm test
